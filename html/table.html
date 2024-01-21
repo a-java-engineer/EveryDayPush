@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,50 +11,54 @@
     </style> -->
 
 </head>
+
 <body>
     <!-- border="1"表示设置表格边框1px； -->
     <!-- cellspacing="0"表示设置表格边框间距为0，即无边距。 -->
     <table border="1" cellspaceing="0">
 
-    <!-- colspan 是列合并，rowspan是行合并。 -->
+        <!-- colspan 是列合并，rowspan是行合并。 -->
 
     </table>
 
 
-<table  align="center" border="1">
-    <caption>学生考试成绩单</caption>
-    <tr>
-        <th align="center" valign="middle">姓名</th>
-        <th align="center" valign="middle">语文</th>
-        <th align="center" valign="middle">数学</th>
-        <th align="center" valign="middle">英语</th>
-    </tr>
-    <tr>
-        <td align="center" valign="middle">张三</td>
-        <td align="center" valign="middle">89</td>
-        <td align="center" valign="middle">92</td>
-        <td align="center" valign="middle">87</td>
-    </tr>
-    <tr>
-        <td align="center" valign="middle">李四</td>
-        <td align="center" valign="middle">93</td>
-        <td align="center" valign="middle">86</td>
-        <td align="center" valign="middle">80</td>
-    </tr>
-    <tr>
-        <td align="center" valign="middle">王五</td>
-        <td align="center" valign="middle">85</td>
-        <td align="center" valign="middle">86</td>
-        <td align="center" valign="middle">90</td>
-    </tr>
-    <tr>
-        <th rowspan="2" align="center" valign="middle">博客信息</th>
-        <td colspan="3" align="center" valign="middle">您好，欢迎访问 pan_junbiao的博客</td>
-    </tr>
-    <tr>
-        <td colspan="3" align="center" valign="middle">博客地址：https://blog.csdn.net/pan_junbiao</td>
-    </tr>
-</table>
-    
+    <table align="center" border="1">
+        <caption>学生考试成绩单</caption>
+        <tr>
+            <th align="center" valign="middle">姓名</th>
+            <th align="center" valign="middle">语文</th>
+            <th align="center" valign="middle">数学</th>
+            <th align="center" valign="middle">英语</th>
+        </tr>
+        <tr>
+            <td align="center" valign="middle">张三</td>
+            <td align="center" valign="middle">89</td>
+            <td align="center" valign="middle">92</td>
+            <td align="center" valign="middle">87</td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle">李四</td>
+            <td align="center" valign="middle">93</td>
+            <td align="center" valign="middle">86</td>
+            <td align="center" valign="middle">80</td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle">王五</td>
+            <td align="center" valign="middle">85</td>
+            <td align="center" valign="middle">86</td>
+            <td align="center" valign="middle">90</td>
+        </tr>
+        <tr>
+            <th rowspan="2" align="center" valign="middle">博客信息</th>
+            <td colspan="3" align="center" valign="middle">您好，欢迎访问 pan_junbiao的博客</td>
+        </tr>
+        <tr>
+            <td colspan="3" align="center" valign="middle">博客地址：https://blog.csdn.net/pan_junbiao</td>
+        </tr>
+    </table>
+
+
+    <table align="center" border="1"><tr><th align="center" valign="middle"><font color="red">FLAGS</font></th><th colspan="2" align="center" valign="middle"><font color="red">DESCRIPTION</font></th></tr><tr><td rowspan="2" align="center" valign="middle"> <code style="border-radius:4px;color:#c7254e;background-color:#f9f2f4;padding:2px 4px">-s SEED</code>, --seed=SEED the random seed</td><td colspan="2" rowspan="2" align="center" valign="middle">this gives you way to <mark>create</mark> a bunch of different jobs randomly</td></tr><tr></tr> <!-- 这里是空行 --><tr><td rowspan="2" align="center" valign="middle"> <code style="border-radius:4px;color:#c7254e;background-color:#f9f2f4;padding:2px 4px">-L IO_LENGTH</code>, --iolength=IO_LENGTH</td><td colspan="2" rowspan="2" align="center" valign="middle">this determines how long <mark>IOs</mark> take to complete (default is 5 ticks)</td></tr><tr></tr>  <!-- 这里是空行 --> <tr><td rowspan="2" align="center" valign="middle"> <code style="border-radius:4px;color:#c7254e;background-color:#f9f2f4;padding:2px 4px">-S PROCESS_SWITCH_BEHAVIOR</code>, --switch=PROCESS_SWITCH_BEHAVIOR</td><td colspan="2" align="center" valign="middle">when to switch between processes: SWITCH_ON_IO, SWITCH_ON_END。this determines when we <mark>switch</mark> to another process:</td></tr><tr><td align="center" valign="middle"> <code style="border-radius:4px;color:#c7254e;background-color:#f9f2f4;padding:2px 4px">- SWITCH_ON_IO</code>, the system will switch when a process <strong>issues an IO</strong></td><td align="center" valign="middle"> <code style="border-radius:4px;color:#c7254e;background-color:#f9f2f4;padding:2px 4px">- SWITCH_ON_END</code>, the system will only switch when the current process is <strong>done</strong> </td></tr><tr><td rowspan="2" align="center" valign="middle"> <code style="border-radius:4px;color:#c7254e;background-color:#f9f2f4;padding:2px 4px">-I IO_DONE_BEHAVIOR</code>, --iodone=IO_DONE_BEHAVIOR</td><td colspan="2" align="center" valign="middle">type of behavior when IO ends: IO_RUN_LATER, IO_RUN_IMMEDIATE。this determines when a process runs after it issues an IO:</td></tr><tr><td align="center" valign="middle"> <code style="border-radius:4px;color:#c7254e;background-color:#f9f2f4;padding:2px 4px">- IO_RUN_IMMEDIATE</code>: switch to this process right now</td><td align="center" valign="middle"> <code style="border-radius:4px;color:#c7254e;background-color:#f9f2f4;padding:2px 4px">- IO_RUN_LATER</code>: switch to this process when it is natural to</td></tr></table>
 </body>
+
 </html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>参考文献</title>
+  <style>
+    .reference-container {
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 400px;
+      transition: background-color 0.3s ease;
+    }
+
+    .reference-container:hover {
+      background-color: #f9f9f9;
+    }
+
+    .reference-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .reference-text {
+      font-size: 14px;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .additional-links {
+      margin-top: 20px;
+      border-top: 1px solid #ccc;
+      padding-top: 10px;
+      font-size: 16px;
+      color: #555;
+    }
+
+    .additional-links ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .additional-links li {
+      /* margin-bottom: 5px; */
+    }
+
+    .additional-links a {
+      color: #ff8f6b;
+      text-decoration: none;
+      display: inline-block; /* 让链接以块级元素显示 */
+      margin-left: 20px; /* 调整链接的左侧缩进 */
+    }
+
+    .additional-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<div class="reference-container" style="background-color: #fff;" onmouseover="this.style.backgroundColor='#f9f9f9'" onmouseout="this.style.backgroundColor='#fff'">
+  <div class="reference-title">[S15]“Understanding glibc malloc” Sploitfun</div>
+  <div class="reference-text">深入了解 glibc malloc 是如何工作的。本文详细得令人惊讶，一篇非常好的阅读材料。</div>
+  
+  <!-- 添加链接部分 -->
+  <div class="additional-links">
+    <strong>参考链接：</strong>
+    <ul>
+      <li><a href="https://example.com" target="_blank">Example Link 1</a></li>
+      <li><a href="https://example2.com" target="_blank">Example Link 2</a></li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>
